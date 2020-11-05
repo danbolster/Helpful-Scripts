@@ -30,7 +30,7 @@ This has helped me use this amazing tool and feel more organized in my enumerati
 
 <hr>
 
-**Scan.py** is a tool useful for network scanning in a dynamic port forward. This is done in via netcat in order to find out which hosts are up in a /24 network within a reasonable timeframe (about 45 minutes maximum).
+**Scan.py** is a tool useful for network scanning in a dynamic port forward. This is done in via netcat in order to find out which hosts are up in a /24 network within a reasonable timeframe (about 45 minutes maximum). This will allow you to figure out which addresses to perform further enumeration on
 
 This is done by port checking on common ports
 - this also means if none of these ports are open, a host will be considered down
